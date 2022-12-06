@@ -1,0 +1,24 @@
+Du côté du développement de DevOps, c'est conseillé de passer à une approche de pipeline d’intégration continue
+et de livraison continue en tirant parti des plates-formes d’automatisation, 
+telles que le serveur CI open source Jenkins. 
+Avec la génération et les tests automatisés, les développeurs n’ont pas à passer du temps sur les intégrations 
+manuelles. Dans le même temps, tous les problèmes qui surviennent sont détectés et résolus rapidement. 
+Avec le déploiement continu, la dernière version d’une base de code peut être automatiquement publiée 
+après des séries de tests réussies.
+
+C’est une énorme transition pour tester l’environnement complet de cette façon et
+ être prêt à déployer en production complète, peut-être même sur une base quotidienne.
+ Mais moins d’erreurs et des cycles plus rapides.
+
+Du côté opérationnel de DevOps, l’automatisation concerne principalement l’infrastructure en tant que code, 
+Les outils de gestion de la configuration open source tels que Chef, Puppet et d’autres adoptent des approches 
+qui facilitent la définition de la configuration et du code du serveur, 
+et maintiennent cela dans le contrôle de version. Ce n’est pas négligeable : 
+savoir exactement comment un serveur est créé facilite l’évolutivité nécessaire à la livraison continue.
+
+Entre le pipeline de livraison automatisée d’applications et l’environnement de serveur automatisé se trouvent
+ le serveur et la virtualisation des données et d’autres composants qui
+ contribuent à « un environnement extrêmement fiable, reproductible et évolutif qui est le même du développement 
+à la production ».
+
+Il ne faut pas oublier dans tout cela la nécessité de se concentrer sur la composabilité, c’est-à-dire de faciliter la reconstitution des ressources d’infrastructure polyglottes à consommer de différentes manières en fonction de leur cycle de vie. L’argument en faveur de la composabilité dans la génération de valeur peut être vu dans le fait d’avoir des architectures de référence sous la forme de code, activées via l’infrastructure en tant que code ou en tant qu’ensemble d’API. « C’est rendu possible par le fait d’avoir toutes ces choses prêtes à partir, prêtes à construire d’une manière qui n’était pas possible auparavant », dit-il.
